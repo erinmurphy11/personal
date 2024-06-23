@@ -1,18 +1,16 @@
 ---
-title: "Astro Sphere"
-description: "Portfolio and blog build with astro."
-date: "Mar 18 2024"
-demoURL: "https://astro-sphere-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-sphere"
+title: "🌱 Apartment Aquaponics"
+description: "Journey to build an aquaponics ecosystem in my apartment."
+date: "June 23 2024"
+# demoURL: "https://astro-sphere-demo.vercel.app"
+# repoURL: "https://github.com/markhorn-dev/astro-sphere"
 ---
 
-![Astro Sphere Lighthouse Score](/astro-sphere.jpg)
+<!-- ![Astro Sphere Lighthouse Score](/astro-sphere.jpg) -->
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+This is the future home of my latest project/hobby/obsession, as I attempt to build a thriving aquaponics ecosystem in my NYC apartment (and grow some herbs in an overly-complicated-but-cool way)
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
-
-## 🚀 Deploy your own
+<!-- ## 🚀 Deploy your own
 
 <div class="flex gap-2">
   <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-sphere">
@@ -73,4 +71,4 @@ Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, e
 
 ## 🏛️ License
 
-MIT
+MIT -->
