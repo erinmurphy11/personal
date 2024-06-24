@@ -6,6 +6,8 @@ import ArrowCard from "@components/ArrowCard.astro";
 import Link from "@components/Link.astro";
 import { dateRange } from "@lib/utils";
 import { SITE, HOME, SOCIALS } from "@consts";
+import Image from "astro/components/Image.astro";
+import ErinImage from "../images/erin.JPEG";
 
 const blog = (await getCollection("blog"))
   .filter(post => !post.data.draft)
@@ -32,14 +34,21 @@ const work = await Promise.all(
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
-    <h4 class="animate font-semibold text-black dark:text-white">
-      Hi, I'm Erin <span class="text-xl">👋🏻</span> 
-    </h4>
-    <div class="space-y-16">
+    <div class="space-y-8">
       <section>
+        <Image
+        src={ErinImage}
+        alt="Erin Murphy"
+        densities={[1.5, 2]}
+        />
+      </section>
+      <section>
+        <h4 class="animate font-semibold text-black dark:text-white">
+          Hi, I'm Erin <span class="text-xl">👋🏻</span> 
+        </h4>
         <article class="space-y-4">
           <p class="animate">
-            I am a software engineer at 
+            I am currently working as a software engineer at 
             <Link href="https://www.bloomberg.com/company/what-we-do/engineering-cto/" aria-label="Bloomberg" external>
               Bloomberg
             </Link>.
@@ -90,7 +99,7 @@ const work = await Promise.all(
         </ul>
       </section>
 
-      <section class="animate space-y-6">
+      <!-- <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
             Work Experience
@@ -117,7 +126,7 @@ const work = await Promise.all(
             </li>
           ))}
         </ul>
-      </section>
+      </section> -->
 
       <section class="animate space-y-4">
         <h5 class="font-semibold text-black dark:text-white">

@@ -1,6 +1,6 @@
 ---
 title: "🌱 Apartment Aquaponics"
-description: "Journey to build an aquaponics ecosystem in my apartment."
+description: "Building an aquaponics ecosystem in my apartment."
 date: "June 23 2024"
 # demoURL: "https://astro-sphere-demo.vercel.app"
 # repoURL: "https://github.com/markhorn-dev/astro-sphere"
@@ -8,7 +8,7 @@ date: "June 23 2024"
 
 <!-- ![Astro Sphere Lighthouse Score](/astro-sphere.jpg) -->
 
-This is the future home of my latest project/hobby/obsession, as I attempt to build a thriving aquaponics ecosystem in my NYC apartment (and grow some herbs in an overly-complicated-but-cool way)
+This is the future home of my latest project/hobby/obsession, as I attempt to build a thriving aquaponics ecosystem in my NYC apartment (and grow some herbs in an overly complicated way)
 
 <!-- ## 🚀 Deploy your own
 
