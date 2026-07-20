@@ -59,6 +59,9 @@ article {
     @apply text-black dark:text-white;
     @apply decoration-black/25 dark:decoration-white/50;
   }
+  article video {
+    @apply max-w-full h-auto mx-auto my-auto rounded;
+  }
 }
 
 .animate {
